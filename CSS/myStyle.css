@@ -6,6 +6,15 @@
 p{
     font-size:larger;
 }
+#btn{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    height: 30px;
+
+}
+
 span{
     font-weight: bold;
 }
@@ -38,7 +47,7 @@ span{
 #main
 {
     width: 100%;
-    height:150vh;
+    height:145vh;
 }
 #resume{
     width: 900px;
