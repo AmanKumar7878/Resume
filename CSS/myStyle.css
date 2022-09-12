@@ -3,6 +3,12 @@
     margin: 0px;
     padding:0px;
 }
+p{
+    font-size:larger;
+}
+span{
+    font-weight: bold;
+}
 .course{
     display: flex;
     flex-direction: row;
@@ -20,12 +26,14 @@
     margin-right: 4%;
 }
 .bold{
-    font-weight: bold;
+    font-weight: bolder;
+    font-size:larger;
 }
 
-.edu,#project,#skills,#declare{
+.edu,#project,#skills,#declare,#achievements{
     margin-left: 4%;
     margin-right: 4%;
+
 }
 #main
 {
@@ -33,14 +41,13 @@
     height:150vh;
 }
 #resume{
-    width: 700px;
-    height: 150vh;
+    width: 900px;
+    height: 90vh;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(https://i.pinimg.com/736x/be/78/05/be7805ef2512cd25bfcdec9e24ae8452.jpg);
-    margin-left: 25%;
-    margin-right: 25%;
-    border: 3px solid black;
+    margin-top: 5%;
+    margin-left: 6%;
+    margin-right: 15%;
     display: flex;
     flex-direction: column;
 }
@@ -68,6 +75,7 @@
 }
 .s1{
     color: blue;
+    font-weight: bold;
 }
 #phone{
     margin-left: 25%;
@@ -78,10 +86,9 @@
     font-size: 28px;
     color:black;
     margin-left: 30%;
-    margin-top: 8%;
+    margin-top: 3%;
     text-transform: uppercase;
-    text-shadow: 3px 3px 3px red;
-    animation: textAnimation linear 2s infinite;
+
 }
 #photo{
     margin-right: 3%;
